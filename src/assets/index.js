@@ -32,7 +32,7 @@ import threejs from "./tech/threejs.svg";
 
 import unisiegen from "./company/unisiegen.png";
 import websential from "./company/websential.png";
-import pioneer from "./company/pioneer.png";
+import na from "./company/na.png";
 
 import travelmap from "./travelmap.png";
 import portfolio from "./portfolio.png";
@@ -64,7 +64,7 @@ export {
   threejs,
   unisiegen,
   websential,
-  pioneer,
+  na,
   travelmap,
   portfolio,
   fullstack,

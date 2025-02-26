@@ -18,7 +18,7 @@ import {
   docker,
   unisiegen,
   websential,
-  pioneer,
+  na,
   travelmap,
   portfolio,
   threejs,
@@ -172,7 +172,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Pioneer Logix",
-    icon: pioneer,
+    icon: na,
     iconBg: "#000000",
     date: "Feb 2019 - Oct 2020",
     points: [
