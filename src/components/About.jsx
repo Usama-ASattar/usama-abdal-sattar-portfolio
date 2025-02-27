@@ -38,12 +38,12 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      </div>
 
-      <motion.p
+      <p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-full leading-[30px]"
       >
@@ -52,7 +52,7 @@ const About = () => {
         Python. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+      </p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
