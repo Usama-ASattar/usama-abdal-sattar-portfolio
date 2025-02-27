@@ -224,12 +224,17 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
+        name: "sweetalert2",
+        color: "pink-text-gradient",
+      },
+      {
         name: "motion",
         color: "green-text-gradient",
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/Usama-ASattar/usama-abdal-sattar-portfolio",
     demo_link: "",
   },
 ];
