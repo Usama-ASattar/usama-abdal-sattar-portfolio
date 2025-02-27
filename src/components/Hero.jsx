@@ -12,12 +12,12 @@ const Hero = () => {
       <div className="w-full h-screen flex flex-col sm:flex-row">
         {/* Left Section - Name & Description (Moves to bottom on small screens) */}
         <div className="w-full sm:w-1/2 flex flex-row justify-center items-center p-10 py-[150px] sm:py-[10px] ">
-          <div className="flex flex-col items-center py-[20px]">
+          <div className="flex flex-col items-center py-[20px] ml-5">
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
             <div className="w-1 sm:h-[285px] h-[155px] violet-gradient" />
           </div>
 
-          <div className="text-start px-8">
+          <div className="text-start px-3 xs:px-8">
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className="text-[#915eff]">Usama</span>
             </h1>
@@ -45,7 +45,7 @@ const Hero = () => {
                     href={social_media.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex items-center w-[160px] gap-2 px-6 py-3 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 justify-center"
+                    className="group flex items-center w-[140px] sm:w-[160px] gap-2 px-6 py-3 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 justify-center"
                     style={{ backgroundColor: social_media.color }}
                   >
                     <img
@@ -66,7 +66,7 @@ const Hero = () => {
                 download="Usama Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center w-[160px] bg-[#A9A9A9] gap-2 px-6 py-3 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 justify-center"
+                className="group flex items-center w-[140px] sm:w-[160px] bg-[#A9A9A9] gap-2 px-6 py-3 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 justify-center"
               >
                 <img src={cv} alt="resume" className="w-6 h-6 object-contain" />
                 <span className="font-medium text-white group-hover:opacity-75 transition-opacity duration-300">
