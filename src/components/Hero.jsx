@@ -11,7 +11,7 @@ const Hero = () => {
     <section id="about" className="relative w-full h-screen mx-auto">
       <div className="w-full h-screen flex flex-col sm:flex-row">
         {/* Left Section - Name & Description (Moves to bottom on small screens) */}
-        <div className="w-full sm:w-1/2 flex flex-row justify-center items-center p-10 py-[150px] sm:py-[10px] ">
+        <div className="w-full sm:w-1/2  h-1/2 sm:h-full flex flex-row justify-center items-center p-10 py-[150px] sm:py-[10px] ">
           <div className="flex flex-col items-center py-[20px] ml-5">
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
             <div className="w-1 sm:h-[285px] h-[155px] violet-gradient" />
