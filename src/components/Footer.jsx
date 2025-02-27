@@ -17,13 +17,13 @@ const Footer = () => {
               href={social_media.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-2 px-2 py-2 rounded-full shadow-md transition-all duration-300 transform hover:scale-105 justify-center"
-              style={{ backgroundColor: social_media.color }}
+              className="group flex bg-[#24292e] items-center gap-1 px-2 py-2 rounded-full shadow-md transition-all duration-300 transform hover:scale-110 justify-center"
+              // style={{ backgroundColor: social_media.color }}
             >
               <img
                 src={social_media.logo}
                 alt={social_media.title}
-                className="w-6 h-6 object-contain"
+                className="w-5 h-5 object-contain"
               />
             </a>
           ))}
