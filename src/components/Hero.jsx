@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Typewriter from "typewriter-effect";
 import { social_medias } from "../constants";
-import { cv, resume } from "../assets";
+import { cv } from "../assets";
 
 const Hero = () => {
   return (
@@ -62,7 +62,7 @@ const Hero = () => {
 
               {/* Resume Button */}
               <a
-                href={resume}
+                href="/resume.pdf"
                 download="Usama_AS_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
