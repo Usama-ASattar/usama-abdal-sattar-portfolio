@@ -27,6 +27,14 @@ import {
   cicd,
   github,
   linkedin,
+  vue,
+  python,
+  express,
+  mysql,
+  jira,
+  material_ui,
+  storybook,
+  react_testing_lib,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +105,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -109,36 +121,60 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue JS",
+    icon: vue,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: express,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Material UI",
+    icon: material_ui,
+  },
+  {
+    name: "Storybook JS",
+    icon: storybook,
+  },
+  {
+    name: "React Testing Library",
+    icon: react_testing_lib,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Jira",
+    icon: jira,
   },
 ];
 

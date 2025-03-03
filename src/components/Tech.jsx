@@ -24,7 +24,7 @@ const Tech = () => {
               className="w-20 h-20 object-contain group-hover:opacity-15 transition-opacity duration-300"
             />
             {/* Text Overlay */}
-            <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-black font-bold text-center">
+            <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-[12px] text-black font-bold text-center">
               {technology.name}
             </div>
           </div>

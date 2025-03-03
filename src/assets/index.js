@@ -27,6 +27,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vue from "./tech/vue.png";
+import material_ui from "./tech/material_ui.png";
+import python from "./tech/python.png";
+import jira from "./tech/jira.png";
+import storybook from "./tech/storybook.png";
+import express from "./tech/express.png";
+import mysql from "./tech/mysql.png";
+import react_testing_lib from "./tech/react_testing_lib.png";
 
 import unisiegen from "./company/unisiegen.png";
 import websential from "./company/websential.png";
@@ -68,4 +76,12 @@ export {
   frontend,
   cicd,
   linkedin,
+  vue,
+  material_ui,
+  python,
+  express,
+  mysql,
+  react_testing_lib,
+  jira,
+  storybook,
 };
