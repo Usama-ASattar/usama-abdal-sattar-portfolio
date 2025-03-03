@@ -4,8 +4,6 @@ import monitor from "./monitor.png";
 import tech from "./tech.png";
 import contact from "./contact.png";
 
-import resume from "./resume.pdf";
-
 import fullstack from "./fullstack.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
@@ -45,7 +43,6 @@ export {
   contact,
   github,
   cv,
-  resume,
   demo,
   menu,
   close,
